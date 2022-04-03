@@ -1,0 +1,28 @@
+header {
+    position: absolute;
+    margin-top: 25px;
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 100px 25px 100px 25px;
+    }
+
+    .small-logo{
+        width: 5rem;
+        height: 5rem;
+        
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+    }
+
+    li {
+        display: block;
+    }
+
+
+}
