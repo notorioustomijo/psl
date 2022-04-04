@@ -4,10 +4,10 @@ body {
     h1 {
         font: {
             weight: 900;
-            size: 2.5rem;
+            size: 2.25rem;
         }
 
-        line-height: 3.5rem;
+        line-height: 3rem;
 
         color: map-get($pry-colors, white);
     }
@@ -15,7 +15,7 @@ body {
     h2 {
         font: {
             weight: 900;
-            size: 2.25rem;
+            size: 2rem;
         }
 
         line-height: 2.5rem;
@@ -26,7 +26,7 @@ body {
     h3 {
         font: {
             weight: 700;
-            size: 2rem;
+            size: 1.5rem;
         }
 
         line-height: 2.3rem;
@@ -48,10 +48,10 @@ body {
     p {
         font: {
             weight: 400;
-            size: 1.5rem;
+            size: 1rem;
         }
 
-        
+
         line-height: 1.9rem;
 
         color: map-get($neutrals, light-black);
@@ -65,5 +65,5 @@ body {
         }
     }
 
-    
+
 }

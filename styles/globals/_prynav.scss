@@ -1,5 +1,5 @@
 header {
-   
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,7 @@ header {
         top: 24px;
         position: absolute;
         width: 100%;
-        
+
         // left: 100px;
         background-color: map-get($neutrals, white);
 
@@ -25,7 +25,7 @@ header {
             align-items: center;
             list-style-type: none;
 
-           li {
+            li {
 
                 a {
                     text-decoration: none;
@@ -33,30 +33,30 @@ header {
                     width: 10vw;
                     color: map-get($pry-colors, dark-black);
 
-                    margin-bottom: 0.5rem;
+
 
                     &:hover {
                         text-decoration: underline 5px solid map-get($pry-colors, dark-red);
                     }
                 }
 
-            
-           }
+
+            }
         }
 
-        button {
-            width: 10rem;
-            height: 3.5rem;
-            background-color: map-get($pry-colors, dark-red);
-            color: map-get($neutrals, white);
-            border-radius: 10px;
-            border-style: none;
-        }
 
-       
+
+
     }
 
-    @media (max-width: 834px) {
-     
-    }
+    @media (max-width: 834px) {}
+}
+
+button {
+    width: 10rem;
+    height: 3.5rem;
+    background-color: map-get($pry-colors, dark-red);
+    color: map-get($neutrals, white);
+    border-radius: 10px;
+    border-style: none;
 }

@@ -50,15 +50,15 @@ body {
   font-family: "Lato", sans-serif; }
   body h1 {
     font-weight: 900;
-    font-size: 2.5rem;
-    line-height: 3.5rem; }
+    font-size: 2.25rem;
+    line-height: 3rem; }
   body h2 {
     font-weight: 900;
-    font-size: 2.25rem;
+    font-size: 2rem;
     line-height: 2.5rem; }
   body h3 {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 2.3rem; }
   body h4 {
     font-weight: 700;
@@ -66,7 +66,7 @@ body {
     line-height: 1.9rem; }
   body p {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.9rem; }
   body button {
     font-family: "Lato", sans-serif;
@@ -96,17 +96,25 @@ header {
         text-decoration: none;
         display: block;
         width: 10vw;
-        color: #333333;
-        margin-bottom: 0.5rem; }
+        color: #333333; }
         header nav ul li a:hover {
           text-decoration: underline 5px solid #a61c31; }
-    header nav button {
-      width: 10rem;
-      height: 3.5rem;
-      background-color: #a61c31;
-      color: white;
-      border-radius: 10px;
-      border-style: none; }
+
+button {
+  width: 10rem;
+  height: 3.5rem;
+  background-color: #a61c31;
+  color: white;
+  border-radius: 10px;
+  border-style: none; }
+
+.pry-btn {
+  width: 18rem;
+  height: 3.5rem;
+  background-color: #a61c31;
+  color: white;
+  border-radius: 10px;
+  border-style: none; }
 
 footer {
   display: flex;
@@ -155,5 +163,77 @@ footer {
     align-items: center; }
     footer .footer-social img {
       margin-right: 8px; }
+
+.fold-area {
+  margin-top: 104px;
+  margin-bottom: 64px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  background: url("../images/sean-pollock-PhYq704ffdA-unsplash.jpg") #333333;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center; }
+  .fold-area .fold-area-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .fold-area .fold-area-section img {
+      width: 48px;
+      height: 48px; }
+    .fold-area .fold-area-section .usp-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(263.81deg, rgba(196, 196, 196, 0.5) 1.35%, rgba(196, 196, 196, 0.3) 35.09%, rgba(196, 196, 196, 0.15) 67.29%, rgba(196, 196, 196, 0.05) 99.5%);
+      border-radius: 10px;
+      margin-top: -24px;
+      padding-top: 40px;
+      padding-bottom: 40px; }
+      .fold-area .fold-area-section .usp-section h1 {
+        text-align: center;
+        width: 80%;
+        margin-bottom: 16px;
+        color: white; }
+      .fold-area .fold-area-section .usp-section p {
+        color: white; }
+    .fold-area .fold-area-section h3 {
+      margin-top: 24px;
+      margin-bottom: 16px;
+      color: white; }
+
+.sales-pitch-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.sales-pitch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  height: 28vh;
+  background-color: rgba(166, 28, 49, 0.07);
+  border-radius: 10px;
+  border: 0.5px solid #e1b437; }
+  .sales-pitch .yellow-line {
+    height: 18vh;
+    width: 0.1%;
+    background-color: #e1b437; }
+  .sales-pitch .pitch-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .sales-pitch .pitch-section h3 {
+      color: #a61c31; }
 
 /*# sourceMappingURL=styles.css.map */

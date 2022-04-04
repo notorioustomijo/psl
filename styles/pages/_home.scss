@@ -1,0 +1,97 @@
+.fold-area {
+    margin-top: 104px;
+    margin-bottom: 64px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background: url("../images/sean-pollock-PhYq704ffdA-unsplash.jpg") map-get($pry-colors, dark-black);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+
+    .fold-area-section {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+
+        img {
+            width: 48px;
+            height: 48px;
+
+        }
+
+        .usp-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(263.81deg, rgba(196, 196, 196, 0.5) 1.35%, rgba(196, 196, 196, 0.3) 35.09%, rgba(196, 196, 196, 0.15) 67.29%, rgba(196, 196, 196, 0.05) 99.5%);
+            border-radius: 10px;
+            margin-top: -24px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+            h1 {
+                text-align: center;
+                width: 80%;
+                margin-bottom: 16px;
+                color: map-get($neutrals, white);
+            }
+
+            p {
+                color: map-get($neutrals, white);
+            }
+
+
+        }
+
+        h3 {
+            margin-top: 24px;
+            margin-bottom: 16px;
+            color: map-get($neutrals, white);
+        }
+    }
+}
+
+.sales-pitch-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales-pitch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    height: 28vh;
+    background-color: map-get($neutrals, light-red);
+    border-radius: 10px;
+    border: 0.5px solid map-get($pry-colors, bright-yellow);
+
+    .yellow-line {
+        height: 18vh;
+        width: 0.1%;
+        background-color: map-get($pry-colors, bright-yellow);
+    }
+
+    .pitch-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            color: map-get($pry-colors, dark-red);
+        }
+    }
+}
