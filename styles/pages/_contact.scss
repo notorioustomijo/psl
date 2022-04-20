@@ -1,0 +1,106 @@
+.contact-section {
+    width: 80%;
+    margin: 120px auto 120px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .contact-info {
+        width: 40%;
+
+        h1 {
+            margin-bottom: 32px;
+        }
+
+        .phone-contact {
+            width: 35%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 24px;
+
+            img {
+                width: 48px;
+                height: 48px;
+            }
+        }
+
+        select {
+            background-color: transparent;
+            border: 1px solid map-get($pry-colors, dark-red);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 50%;
+
+
+            font: {
+                family: "Lato", sans-serif;
+            }
+        }
+    }
+
+    .contact-form {
+        border: 1px solid map-get($pry-colors, dark-red);
+        border-radius: 8px;
+        background-color: map-get($neutrals, light-red);
+        padding: 56px;
+
+        h2 {
+            margin-bottom: 32px;
+        }
+
+        .name-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            .form-entry1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                margin-bottom: 32px;
+
+                label {
+                    margin-bottom: 8px;
+                }
+
+                input {
+                    background-color: transparent;
+                    border: 1px solid map-get($pry-colors, dark-red);
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    width: 80%;
+                }
+            }
+
+        }
+
+        .form-entry {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-bottom: 32px;
+
+            label {
+                margin-bottom: 8px;
+            }
+
+            input,
+            textarea {
+                background-color: transparent;
+                border: 1px solid map-get($pry-colors, dark-red);
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                width: 90%;
+            }
+        }
+    }
+}

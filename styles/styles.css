@@ -612,4 +612,77 @@ footer {
 hr {
   width: 80%; }
 
+.contact-section {
+  width: 80%;
+  margin: 120px auto 120px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .contact-section .contact-info {
+    width: 40%; }
+    .contact-section .contact-info h1 {
+      margin-bottom: 32px; }
+    .contact-section .contact-info .phone-contact {
+      width: 35%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 24px; }
+      .contact-section .contact-info .phone-contact img {
+        width: 48px;
+        height: 48px; }
+    .contact-section .contact-info select {
+      background-color: transparent;
+      border: 1px solid #a61c31;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width: 50%;
+      font-family: "Lato", sans-serif; }
+  .contact-section .contact-form {
+    border: 1px solid #a61c31;
+    border-radius: 8px;
+    background-color: rgba(166, 28, 49, 0.07);
+    padding: 56px; }
+    .contact-section .contact-form h2 {
+      margin-bottom: 32px; }
+    .contact-section .contact-form .name-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start; }
+      .contact-section .contact-form .name-section .form-entry1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 32px; }
+        .contact-section .contact-form .name-section .form-entry1 label {
+          margin-bottom: 8px; }
+        .contact-section .contact-form .name-section .form-entry1 input {
+          background-color: transparent;
+          border: 1px solid #a61c31;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          width: 80%; }
+    .contact-section .contact-form .form-entry {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-bottom: 32px; }
+      .contact-section .contact-form .form-entry label {
+        margin-bottom: 8px; }
+      .contact-section .contact-form .form-entry input,
+      .contact-section .contact-form .form-entry textarea {
+        background-color: transparent;
+        border: 1px solid #a61c31;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 90%; }
+
 /*# sourceMappingURL=styles.css.map */
