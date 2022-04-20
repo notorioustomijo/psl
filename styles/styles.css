@@ -99,8 +99,6 @@ header {
         color: #333333; }
         header nav ul li a:hover {
           text-decoration: underline 5px solid #a61c31; }
-    header nav .contact-btn {
-      text-decoration: none; }
 
 button {
   width: 10rem;
@@ -487,5 +485,131 @@ footer {
   .unwinnable-section .last-p {
     width: 30%;
     text-align: center; }
+
+.about {
+  text-decoration: underline 5px solid #a61c31; }
+
+.promo-section {
+  margin: 160px auto 120px auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .promo-section .promo-info {
+    width: 45%; }
+    .promo-section .promo-info h1 {
+      margin-bottom: 16px; }
+    .promo-section .promo-info p {
+      margin-bottom: 24px; }
+
+.promo-section2 {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .promo-section2 .promo-image img {
+    width: 80%;
+    height: 90%; }
+  .promo-section2 .promo-info2 {
+    width: 60%; }
+    .promo-section2 .promo-info2 h2 {
+      margin-bottom: 16px; }
+    .promo-section2 .promo-info2 p {
+      margin-bottom: 24px; }
+
+.history-section {
+  width: 80%;
+  margin: 0 auto 120px auto; }
+  .history-section .history-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px; }
+    .history-section .history-cards .history-card {
+      width: 25%;
+      padding: 32px;
+      background-color: rgba(166, 28, 49, 0.07);
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start; }
+      .history-section .history-cards .history-card ul {
+        list-style-type: disc;
+        color: #a61c31; }
+        .history-section .history-cards .history-card ul .history-text {
+          color: #333333; }
+
+.value-section {
+  width: 80%;
+  margin: 0 auto 120px auto; }
+  .value-section .value-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px; }
+    .value-section .value-cards .value-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 25%;
+      height: 40%;
+      border: 0.5px solid #a61c31;
+      border-radius: 8px;
+      padding: 24px; }
+      .value-section .value-cards .value-card .value-card-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+        .value-section .value-cards .value-card .value-card-title img {
+          width: 48px;
+          height: 48px; }
+
+.management-section {
+  width: 80%;
+  margin: 0 auto 120px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+  .management-section .management-team-members {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px; }
+    .management-section .management-team-members .team-member {
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 72px;
+      border-radius: 20px;
+      filter: drop-shadow(5px 5px 25px rgba(146, 117, 121, 0.07)) drop-shadow(-5px -5px 25px rgba(129, 83, 90, 0.07)); }
+      .management-section .management-team-members .team-member img {
+        width: 80%;
+        height: 40vh;
+        border-radius: 10px 10px 0 0;
+        filter: drop-shadow(5px 5px 25px rgba(146, 117, 121, 0.07)) drop-shadow(-5px -5px 25px rgba(129, 83, 90, 0.07)); }
+      .management-section .management-team-members .team-member .team-member-info {
+        background-color: white;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 0 0 10px 10px; }
+        .management-section .management-team-members .team-member .team-member-info p {
+          margin-bottom: 8px;
+          margin-top: 8px; }
+        .management-section .management-team-members .team-member .team-member-info h3 {
+          margin-bottom: 32px; }
+
+hr {
+  width: 80%; }
 
 /*# sourceMappingURL=styles.css.map */
