@@ -81,4 +81,120 @@ footer {
             margin-right: 8px;
         }
     }
+
+
+    @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 80%;
+        margin: 48px auto;
+
+        .sales-hook {
+            width: 100%;
+
+            img {
+                width: 15%x;
+                height: 15%;
+            }
+        }
+
+        .footer-practice-section {
+            width: 100%;
+            margin: 48px auto;
+
+            .footer-practice-content {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+
+                .footer-practice-areas {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+
+            }
+        }
+
+        .footer-contact {
+            width: 100%;
+            margin: 0 auto 0 auto;
+
+
+            h3 {
+                margin-bottom: 32px;
+            }
+        }
+
+        .footer-contact-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+
+    @media (min-width: 481px) and (max-width: 770px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 80%;
+        margin: 48px auto;
+
+        .sales-hook {
+            width: 100%;
+
+            img {
+                width: 15%x;
+                height: 15%;
+            }
+        }
+
+        .footer-practice-section {
+            width: 100%;
+            margin: 48px auto;
+
+            .footer-practice-content {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+
+                .footer-practice-areas {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+
+            }
+        }
+
+        .footer-contact {
+            width: 100%;
+            margin: 0 auto 0 auto;
+
+
+            h3 {
+                margin-bottom: 32px;
+            }
+        }
+
+        .footer-contact-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+
 }

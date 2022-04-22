@@ -16,6 +16,10 @@ header {
         position: absolute;
         width: 100%;
 
+        .hamburger-menu-hidden {
+            display: hidden;
+        }
+
         // left: 100px;
         background-color: map-get($neutrals, white);
 
@@ -47,10 +51,19 @@ header {
 
 
 
-
     }
 
-    @media (max-width: 834px) {}
+    @media (max-width: 480px) {
+        display: none;
+    }
+}
+
+.mobile-menu {
+    display: none;
+
+    @media (max-width: 480px) {
+        display: flex;
+    }
 }
 
 button {
