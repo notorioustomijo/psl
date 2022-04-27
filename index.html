@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="/psl/images/Group 3pslogo.ico">
+    <!-- MATERIAL ICONS CDN -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+    <script src="/psl/index.js"></script>
 
 </head>
 
@@ -17,15 +21,33 @@
     <header>
         <nav>
             <img src="images/Group 3pslogo.svg" alt="PSL logo" class="small-logo">
-            <ul>
-                <li><a href="">Practice Areas</a></li>
-                <li><a href="">Our Team</a></li>
-                <li><a href="">Testimonials</a></li>
-                <li><a href="/psl/about.html">About Us</a></li>
-            </ul>
-            <button onclick="window.location.href='/psl/contact.html';">CONTACT US</button>
+            <div class="container">
+
+                <ul>
+                    <li><a href="">Practice Areas</a></li>
+                    <li><a href="">Our Team</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+                <a href="contact.html"><button onclick="window.location.href='/psl/contact.html';">CONTACT
+                        US</button></a>
+
+
+
+            </div>
+            <button class="menu-icon" id="menu-btn"><span class="material-icons-round">
+                    menu
+                </span></button>
+            <button class="close-icon" id="close-btn"><span class="material-icons-round">
+                    close
+                </span></button>
+
+
         </nav>
+
     </header>
+
+
 
     <section class="fold-area">
         <div class="fold-area-section">
@@ -64,17 +86,7 @@
     <section class="recentcase">
         <div class="recentcasecontrol">
             <h2>Recent cases</h2>
-            <div class="casecontrol">
-                <div>
-                    <img src="images/arrow_back.svg" alt="">
-                </div>
 
-                <div>
-                    <img src="images/arrow_forward.svg" alt="">
-                </div>
-
-
-            </div>
 
         </div>
         <div class="news-section">
@@ -100,7 +112,8 @@
 
             <div class="news-post">
                 <h3>How it went down with Qiaodan - The Complete Backstory</h3>
-                <p>Here for a limited time only. The full story of how Pearson Specter Litt took and won arguably the
+                <p>Here for a limited time only. The full story of how Pearson Specter Litt took and won arguably
+                    the
                     biggest copyright case involving an athlete...</p>
                 <p class="tertiarybtn">
                     Read More
@@ -214,7 +227,8 @@
                     <p>"</p>
                 </div>
                 <div class="testimonial-info">
-                    <p class="testimonial-text">I’d given up on any chance of justice. But I decided to give it one last
+                    <p class="testimonial-text">I’d given up on any chance of justice. But I decided to give it one
+                        last
                         shot and I’m glad I took
                         that
                         shot with Pearson Specter Litt.</p>
@@ -232,7 +246,8 @@
                     <p>"</p>
                 </div>
                 <div class="testimonial-info">
-                    <p class="testimonial-text">Going through a divorce is tough. Pearson Specter Litt made mine as cool
+                    <p class="testimonial-text">Going through a divorce is tough. Pearson Specter Litt made mine as
+                        cool
                         as
                         a breeze. And yes, I got
                         custody!</p>
@@ -250,7 +265,8 @@
                     <p>"</p>
                 </div>
                 <div class="testimonial-info">
-                    <p class="testimonial-text">When you make it to the top, people will come after you. So when I made
+                    <p class="testimonial-text">When you make it to the top, people will come after you. So when I
+                        made
                         it,
                         I made sure to secure the
                         services of the best in the business - Pearson Specter Litt.</p>
@@ -358,6 +374,8 @@
 
         </div>
     </footer>
+
+
 </body>
 
 </html>
