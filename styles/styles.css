@@ -14,6 +14,10 @@ table {
   border-spacing: 0;
 }
 
+body {
+  scroll-behaviour: smooth;
+}
+
 /* Typography Styles*/
 
 h1 {
