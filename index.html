@@ -13,41 +13,40 @@
     <link rel="icon" href="/psl/images/Group 3pslogo.ico">
     <!-- MATERIAL ICONS CDN -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
-    <script src="/psl/index.js"></script>
+    <script src="/psl/index.js" defer></script>
+
 
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="images/Group 3pslogo.svg" alt="PSL logo" class="small-logo">
-            <div class="container">
 
-                <ul>
-                    <li><a href="">Practice Areas</a></li>
-                    <li><a href="">Our Team</a></li>
-                    <li><a href="">Testimonials</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                </ul>
-                <a href="contact.html"><button onclick="window.location.href='/psl/contact.html';">CONTACT
-                        US</button></a>
+    <!-- NAVIGATION -->
+    <nav>
+        <img src="images/Group 3pslogo.svg" alt="PSL logo" class="small-logo">
+        <div class="container">
 
+            <ul>
+                <li><a href="#practice-areas">Practice Areas</a></li>
+                <li><a href="#our-team">Our Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="pages/about.html">About Us</a></li>
+            </ul>
 
+            <a href="pages/contact.html" class="contact-btn"><button>CONTACT
+                    US</button></a>
 
-            </div>
-            <button class="menu-icon" id="menu-btn"><span class="material-icons-round">
-                    menu
-                </span></button>
-            <button class="close-icon" id="close-btn"><span class="material-icons-round">
-                    close
-                </span></button>
-
-
-        </nav>
-
-    </header>
+        </div>
+        <div class="toggle">
+            <span class="toggle1"></span>
+            <span class="toggle2"></span>
+            <span class="toggle3"></span>
+        </div>
 
 
+    </nav>
+
+
+    <!-- HERO SECTION -->
 
     <section class="fold-area">
         <div class="fold-area-section">
@@ -62,6 +61,8 @@
             <button class="pry-btn">BOOK A CONSULTATION</button>
         </div>
     </section>
+
+    <!-- SALES-PITCH -->
     <section class="sales-pitch-section">
         <section class="sales-pitch">
             <div class="pitch-section">
@@ -83,12 +84,12 @@
     </section>
 
 
+    <!-- RECENT CASES SECTION -->
     <section class="recentcase">
-        <div class="recentcasecontrol">
-            <h2>Recent cases</h2>
+        <h2>Recent cases</h2>
 
 
-        </div>
+
         <div class="news-section">
             <div class="news-post">
                 <h3>The Ultimate Upset: Pearson Specter Litt takes down WLRK</h3>
@@ -123,7 +124,8 @@
 
     </section>
 
-    <section class="practice-area-section">
+    <!-- PRACTICE-AREA-SECTION -->
+    <section class="practice-area-section" id="practice-areas">
         <h2>Practice Areas</h2>
         <div class="practice-areas-box">
             <div class="practice-areas">
@@ -167,7 +169,7 @@
         <button class="pry-btn">SEE ALL PRACTICE AREAS</button>
     </section>
 
-    <section class="our-team-section">
+    <section class="our-team-section" id="our-team">
         <div class="our-team-title">
             <h2>Our Team</h2>
             <div class="see-all-members">
@@ -205,7 +207,7 @@
 
     </section>
 
-    <section class="testimonial-section">
+    <section class="testimonial-section" id="testimonials">
         <div class="testimonial-section-title">
             <h2>What Our Clients Have Said About Us</h2>
             <div class="testimonial-section-navigation">
@@ -322,7 +324,7 @@
     <section class="unwinnable-section">
         <h2>Think your case is "un-winnable?</h2>
         <p>Think again.</p>
-        <p class="last-p">We specialize in getting the best possible outcome for our clients in "un-winnable"
+        <p>We specialize in getting the best possible outcome for our clients in "un-winnable"
             situations.</p>
         <button class="pry-btn">BOOK A CONSULTATION NOW</button>
     </section>
