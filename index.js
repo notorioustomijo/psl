@@ -1,8 +1,7 @@
-const menuBtn = document.getElementById("menu-btn");
-const closeBtn = document.getElementById("close-btn");
-const menu = document.querySelector('nav .container ul');
+let toggle = document.querySelector(".toggle");
+let navigation = document.querySelector(".container");
 
+toggle.addEventListener("click", () => {
+    navigation.classList.toggle("nav-open");
+});
 
-menuBtn.addEventListener("click", () => {
-    menu.style.display = 'block';
-})
