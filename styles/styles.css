@@ -357,6 +357,7 @@ footer p {
 .news-section {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 48px;
@@ -1035,6 +1036,7 @@ footer p {
 
 
   /* NAVIGATION */
+  /* NAVIGATION */
   nav {
     width: 100%;
     justify-content: space-between;
@@ -1082,7 +1084,7 @@ footer p {
     position: absolute;
     top: 0;
     right: 0;
-    width: 50vw;
+    width: 70vw;
     height: 100vh;
     z-index: 1;
     transition: 0.75s all ease-in-out;
@@ -1120,6 +1122,7 @@ footer p {
     height: 2px;
     border-radius: 5px;
   }
+
 
 
   /* =====FOOTER STYLES===== */
