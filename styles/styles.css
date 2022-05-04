@@ -14,9 +14,7 @@ table {
   border-spacing: 0;
 }
 
-body {
-  scroll-behaviour: smooth;
-}
+
 
 /* Typography Styles*/
 
@@ -24,6 +22,7 @@ h1 {
   font-weight: 900;
   font-size: 2.25rem;
   line-height: 3rem;
+  color: #333;
 
 }
 
@@ -31,14 +30,15 @@ h2 {
   font-weight: 900;
   font-size: 2rem;
   line-height: 2.5rem;
+  color: #333;
 
 }
 
 h3 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.5rem;
   line-height: 2.3rem;
-
+  color: #333;
 }
 
 h4 {
@@ -50,9 +50,13 @@ h4 {
 p {
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.25rem;
+  color: #4f4f4f;
 }
 
+li {
+  color: #333;
+}
 
 /* Components */
 
@@ -79,6 +83,7 @@ nav {
   padding-bottom: 4rem;
   border: 0.5px solid rgba(166, 28, 49, 0.07);
   background-color: white;
+  scroll-behaviour: smooth;
 }
 
 nav img {
@@ -122,8 +127,9 @@ nav ul li a:hover {
 /* BUTTONS */
 
 button {
-  width: 10rem;
+  width: 16rem;
   height: 3.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   background-color: #a61c31;
   color: white;
   border-radius: 10px;
@@ -131,8 +137,6 @@ button {
 }
 
 .pry-btn {
-  width: 18rem;
-  height: 3.5rem;
   background-color: #a61c31;
   color: white;
   border-radius: 10px;
@@ -144,7 +148,11 @@ button {
   color: #a61c31;
   font-weight: 600;
   cursor: pointer;
+}
 
+.contact-btn {
+  padding: 0.5rem 0.5rem;
+  width: 8rem;
 }
 
 
@@ -153,14 +161,13 @@ button {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-top: 5rem;
-  margin-bottom: 3rem;
+  justify-content: space-around;
+  width: 80%;
+  margin: 5rem auto 3rem auto;
 }
 
 .sales-hook {
   width: 18%;
-  margin-left: 6%;
 }
 
 .sales-hook img {
@@ -347,14 +354,6 @@ footer p {
 }
 
 
-.recentcasecontrol {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .news-section {
   display: flex;
   flex-direction: row;
@@ -373,6 +372,15 @@ footer p {
   border: 0.1px solid #a61c31;
   border-radius: 10px;
 
+}
+
+.news-section .news-post h3 {
+  width: 90%;
+  margin-bottom: 16px;
+}
+
+.news-section .news-post p {
+  width: 95%;
 }
 
 .news-post .tertiarybtn {
@@ -405,12 +413,12 @@ footer p {
 
 .practice-areas {
   width: 20%;
-  height: 40vh;
+  height: 40%;
   border: 0.5px solid #a61c31;
   border-radius: 15px;
   margin: 40px 24px 24px 40px;
   padding-top: 32px;
-
+  padding-bottom: 32px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -492,6 +500,7 @@ footer p {
   height: 40vh;
   border-radius: 10px 10px 0 0;
   filter: drop-shadow(5px 5px 25px rgba(165, 28, 48, 0.07)) drop-shadow(-5px -5px 25px rgba(165, 28, 48, 0.07));
+  object-fit: cover;
 }
 
 .team-member-info {
@@ -574,8 +583,11 @@ footer p {
   justify-content: center;
   align-items: center;
   background-color: #a61c31;
-  color: white;
   border-radius: 50%;
+}
+
+.quote p {
+  color: white;
 }
 
 .testimonial-info {
@@ -604,6 +616,7 @@ footer p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
   width: 80%;
 }
 
@@ -613,23 +626,34 @@ footer p {
 
 .customer-logo-group {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.first-logo-group,
+.second-logo-group {
+  width: 80%;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
-  width: 80%;
+  align-items: center;
+  margin-bottom: 32px;
 }
 
 .customer-logo {
   border: 1px solid #a61c31;
   border-radius: 8px;
-  margin-right: 0;
   margin-bottom: 32px;
 }
 
 .customers-section .customer-logo-group .customer-logo img {
-  width: 180px;
+  width: 160px;
   height: 100px;
   border-radius: 8px;
+  object-fit: contain;
 }
 
 
@@ -650,15 +674,16 @@ footer p {
 
 .unwinnable-section p {
   margin-bottom: 32px;
+  width: 80%;
+  text-align: center;
 }
 
 .unwinnable-section h2+p {
   margin-bottom: 8px;
 }
 
-.unwinnable-section .last-p {
+.unwinnable-section p:last-of-type {
   width: 30%;
-  text-align: center;
 }
 
 .about {
@@ -706,6 +731,10 @@ footer p {
   margin-left: 15%;
 }
 
+.promo-section .promo-info .promo-video iframe {
+  object-fit: contain;
+}
+
 .promo-section2 {
   width: 80%;
   margin-right: auto;
@@ -714,11 +743,13 @@ footer p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .promo-section2 .promo-image img {
   width: 80%;
   height: 90%;
+  object-fit: cover;
 }
 
 .promo-info2 {
@@ -830,10 +861,10 @@ footer p {
 }
 
 .management-team-members .team-member img {
-  width: 80%;
-  height: 40vh;
+
   border-radius: 10px 10px 0 0;
   filter: drop-shadow(5px 5px 25px rgba(146, 117, 121, 0.07)) drop-shadow(-5px -5px 25px rgba(129, 83, 90, 0.07));
+  object-fit: cover;
 }
 
 .management-team-members .team-member .team-member-info {
@@ -876,7 +907,7 @@ footer p {
 }
 
 .contact-section .contact-info {
-  width: 40%;
+  width: 58%;
 }
 
 .contact-section .contact-info h1 {
@@ -884,7 +915,7 @@ footer p {
 }
 
 .phone-contact {
-  width: 35%;
+  width: 25%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -893,16 +924,12 @@ footer p {
 }
 
 .location-pin {
-  width: 40%;
+  width: 38%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-start;
   margin-top: 24px;
-}
-
-.location-pin div {
-  margin-left: 16px;
 }
 
 .phone-contact img,
@@ -930,6 +957,7 @@ footer p {
 
 .contact-form h2 {
   margin-bottom: 32px;
+  line-height: 1.5rem;
 }
 
 .name-section {
@@ -1279,7 +1307,7 @@ footer p {
 
   .practice-areas {
     width: 55%;
-    height: 70%;
+    height: 25%;
   }
 
   .practice-areas h3 {
@@ -1287,7 +1315,7 @@ footer p {
   }
 
   .practice-areas .tertiarybtn {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
 
 
@@ -1344,6 +1372,12 @@ footer p {
     width: 90%;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  .first-logo-group,
+  .second-logo-group {
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   .customer-logo {
@@ -1505,13 +1539,12 @@ footer p {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     margin: 120px auto 96px auto;
   }
 
   .name-section {
     flex-wrap: wrap;
-    width:
   }
 
   .contact-section .contact-info {
@@ -1520,19 +1553,21 @@ footer p {
     margin-left: 10%;
   }
 
-  .phone-contact,
-  .location-pin {
-    width: 50%;
-    justify-content: space-around;
+  .phone-contact {
+    width: 30%;
+  }
 
+  .location-pin {
+    width: 45%;
   }
 
 
 
   .contact-form {
-    width: 100%;
+    width: 80%;
     padding: 48px;
   }
+
 
 
 
@@ -1598,7 +1633,7 @@ footer p {
     position: absolute;
     top: 0;
     right: 0;
-    width: 50vw;
+    width: 70vw;
     height: 100vh;
     z-index: 1;
     transition: 0.75s all ease-in-out;
@@ -1636,6 +1671,8 @@ footer p {
     height: 2px;
     border-radius: 5px;
   }
+
+
 
 
   /* =====FOOTER STYLES===== */
@@ -1813,6 +1850,11 @@ footer p {
     justify-content: space-between;
   }
 
+  .first-logo-group,
+  .second-logo-group {
+    flex-wrap: wrap;
+  }
+
   .unwinnable-section p:last-of-type {
     width: 55%;
     text-align: center;
@@ -1864,24 +1906,30 @@ footer p {
   }
 
   .promo-section2 .promo-image {
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
   }
 
   .promo-section2 .promo-image img {
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    height: 80%;
     margin-bottom: 24px;
   }
 
   .promo-section2 .promo-info2 {
-    width: 80%;
+    width: 65%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
   }
 
   .promo-section2 .promo-info2 h2 {
     margin-top: 8px;
     line-height: 2rem;
   }
+
+
 
   .history-section .history-cards {
     display: flex;
