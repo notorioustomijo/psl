@@ -237,6 +237,13 @@ footer p {
   margin-right: 8px;
 }
 
+.footer-signature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
 
 /* HOME PAGE LAYOUT AND STYLES */
 
